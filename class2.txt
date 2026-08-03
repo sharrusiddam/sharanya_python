@@ -1,0 +1,227 @@
+id():
+=====
+It is a predefine function in python.The main objective of id() function is know the
+address of a variable where our value is stored at memory allocation.
+
+Ex1:
+===
+import time 
+age=21
+print(age)
+print()
+print(id(age))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+age=21
+print("Age is:",age)
+print()
+print("Address of age is:",id(age))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+type():
+======
+It is a predefine function in python.The main objective of type() function is to 
+know the what type of data type we are using while writing business logic.
+
+
+Ex1:
+===
+import time 
+Eid=1001 
+print('Employee id is:',Eid)
+print()
+print("Address is:",id(Eid))
+print()
+print("Data type is:",type(Eid))  #<class 'int'>
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+
+An identifier(variable):
+=======================
+
+
+What is an identifier(variable)?
+---------------------------------
+It is a name inside the python script or python module or python program.
+
+
+Rule1:
+=====
+Only allow characters A-Z or a-z or number or decimal number from 0-9 and 
+only one specail character(_).
+
+Specail characters are:$,#,space,_,@,&
+
+
+Ex1:
+===
+import time 
+ABC_abc_12345=1200 
+print("The value is:",ABC_abc_12345)
+print()
+print("The address is:",id(ABC_abc_12345))
+print()
+print("The data type is:",type(ABC_abc_12345))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+_=1200 
+print("The value is:",_)
+print()
+print("The address is:",id(_))
+print()
+print("The data type is:",type(_))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+_______=1600 
+print("The value is:",_______)
+print()
+print("The address is:",id(_______))
+print()
+print("The data type is:",type(_______))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+Ex4:
+====
+import time 
+_ _=1600 
+print("The value is:",_ _)
+print()
+print("The address is:",id(_ _))
+print()
+print("The data type is:",type(_ _))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex5:
+===
+import time 
+ABC_abc_$_123456=1600 
+print("The value is:",ABC_abc_$_123456)
+print()
+print("The address is:",id(ABC_abc_$_123456))
+print()
+print("The data type is:",type(ABC_abc_$_123456))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex6:
+===
+import time 
+$=1600 
+print("The value is:",$)
+print()
+print("The address is:",id($))
+print()
+print("The data type is:",type($))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+Ex7:
+===
+import time 
+  ABC=12000 
+print("The value is:",  ABC)
+print()
+print("The address is:",  ABC)
+print()
+print("The data type is:",  ABC)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+Rule2:
+======
+An idenfitier or variable should not start with number or decimal number from 0-9.
+
+
+Ex1:
+===
+import time 
+12345_abc_ABC=12 
+print("The value is:",12345_abc_ABC)
+print()
+print("The address is:",12345_abc_ABC)
+print()
+print("The data type is:",12345_abc_ABC)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+A12345_abc_ABC=12 
+print("The value is:",A12345_abc_ABC)
+print()
+print("The address is:",id(A12345_abc_ABC))
+print()
+print("The data type is:",type(A12345_abc_ABC))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+_12345_abc_ABC=12 
+print("The value is:",_12345_abc_ABC)
+print()
+print("The address is:",id(_12345_abc_ABC))
+print()
+print("The data type is:",type(_12345_abc_ABC))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+
+
+
+
+
+
+
+
+
+
